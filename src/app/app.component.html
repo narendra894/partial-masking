@@ -1,0 +1,12 @@
+<div class="assignment2">
+  <mat-form-field class="ass2">
+  <input matInput placeholder="password" [(ngModel)]="pswd"  value="{{pass}}" >
+  <i class="material-icons" matSuffix (click) ="cgi()">
+  {{hide ? 'visibility_off':'visibility'}}
+  </i>
+</mat-form-field>
+</div>
+
+<router-outlet></router-outlet>
+
+<!-- ngModel is a directive which stores userinput in a variable.-->
